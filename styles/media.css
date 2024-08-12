@@ -1,0 +1,43 @@
+@media screen and (max-width: 760px) {
+    .nav-logo {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin-left: 35px;
+    }
+
+    .create-account {
+        display: flex; /* Fixar a posição do botão na tela */
+        bottom: 15px; /* Ajustar a distância da parte inferior */
+        padding: 10px 20px; /* Espaçamento interno para o botão */
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    p {
+        max-width: 350px;
+    }
+}
